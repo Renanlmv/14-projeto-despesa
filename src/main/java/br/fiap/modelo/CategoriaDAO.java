@@ -31,7 +31,7 @@ public class CategoriaDAO {
     }
 
     public List<Categoria> listar(){
-        List< Categoria> lista = new ArrayList<>();
+        List<Categoria> lista = new ArrayList<>();
         sql = "select * from java_categoria";
         try(Connection connection = Conexao.conectar()){
             ps = connection.prepareStatement(sql);
