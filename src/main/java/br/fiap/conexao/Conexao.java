@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexao {
-    private final static String URL = "jdbc:oracle:thin:@::";
-    private final static String USER = "";
-    private final static String PASSWORD = "";
+    private final static String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
+    private final static String USER = "rm555869";
+    private final static String PASSWORD = "310704";
 
     // private para o usuário não gerar um objeto do tipo Conexao
     private Conexao(){}
